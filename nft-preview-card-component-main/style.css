@@ -1,116 +1,113 @@
-*{
-    border-radius: 10px;
+* {
+  border-radius: 10px;
 }
-body{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    background-color:hsl(217, 54%, 11%);
-    font-family: "Outfit";
-    justify-content: center;
-    margin:10% auto;
-    width:260px;
-    font-size: 14px;
-    border-collapse: separate;
-    border-radius: 25px;
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit";
+  justify-content: center;
+  margin: 10% auto;
+  width: 260px;
+  font-size: 14px;
+  border-collapse: separate;
+  border-radius: 25px;
+}
+#card1 {
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  margin: 0 auto;
+}
+#containerpic {
+  position: relative;
+  height: 250px;
+  width: 260px;
+  margin: 0 auto;
+}
+#cub {
+  display: flex;
+  margin: auto;
+  padding: 5%;
+  width: 230px;
+  border-radius: 7%;
+  position: relative;
+}
+#containerpic img {
+  position: absolute;
+  left: 0;
+}
+#containereye {
+  display: flex;
+  margin-left: 5%;
+  padding: 5%;
+  width: 230px;
+  border-radius: 7%;
+  position: relative;
+}
+#overlay {
+  display: flex;
 
+  padding: 36% 36%;
+  position: absolute;
+  opacity: 0;
 }
-#card{
-    background-color:hsl(216, 50%, 16%);
-    color:hsl(0, 0%, 100%);
-    position:relative;
-    margin:0 auto;
+#overlay:hover {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  background-color: hsl(178, 100%, 50%, 0.3);
 }
-#containerpic{
-position:relative;
-  height:250px;
-  width:260px;
-  margin:0 auto;
+#containerinfo {
+  padding: 0 15px;
+  color: hsl(215, 51%, 70%);
 }
-#cub{
-    display:flex;
-    margin:auto;
-    padding:5%;
-    width:230px;
-    border-radius:7%;
-    position: relative;
+#containerinfo h2 {
+  color: white;
 }
-#containerpic img{
-    position:absolute;
-    left:0;
+#containerPriceTime {
+  padding: 0 16px;
+  display: flex;
+  color: hsl(215, 51%, 70%);
 }
-#containereye{
-    display:flex;
-    margin-left: 5%;
-    padding:5%;
-    width:230px;
-    border-radius:7%;
-    position: relative;
+#price {
+  color: hsl(178, 100%, 50%);
+  margin-left: 3px;
 }
-#overlay{
-    display:flex;
-
-    padding:36% 36%;
-    position:absolute;
-    opacity: 0;
+#time {
+  margin-left: auto;
+  object-fit: scale-down;
 }
-#overlay:hover{
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-    opacity: 1;
-    background-color:hsl(178, 100%, 50%, 0.3);
+#ethIcon {
+  object-fit: scale-down;
 }
-#containerinfo{
-    padding:0 15px;
-    color: hsl(215, 51%, 70%);
+#autor {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  padding: 0 16px;
+  font-size: 12px;
 }
-#containerinfo h2{
-    color: white;
+#face {
+  height: 30px;
+  object-fit: scale-down;
+  border: 1px solid white;
+  border-radius: 50%;
 }
-#containerPriceTime{
-    padding:0 16px;
-    display:flex;
-    color: hsl(215, 51%, 70%);
+#autor p {
+  margin-left: 10px;
 }
-#price{
-    color: hsl(178, 100%, 50%);
-    margin-left: 3px;
+#name {
+  color: white;
 }
-#time{
-    margin-left:auto;
-    object-fit: scale-down;
+hr {
+  margin: 16px;
 }
-#ethIcon{
-    object-fit: scale-down;
+#title:hover {
+  color: hsl(178, 100%, 50%);
 }
-#autor{
-    color: hsl(215, 51%, 70%);
-    display: flex;
-    padding:0 16px;
-    font-size: 12px;
-
+#name:hover {
+  color: hsl(178, 100%, 50%);
 }
-#face{
-    height:30px;
-    object-fit: scale-down;
-    border: 1px solid white;
-    border-radius: 50%;
-}
-#autor p{
-    margin-left: 10px;
-}
-#name{
-    color:white;
-}
-hr{
-    margin: 16px;
-}
-#title:hover{
-    color:hsl(178, 100%, 50%);
-}
-#name:hover{
-    color:hsl(178, 100%, 50%);
-}
-
