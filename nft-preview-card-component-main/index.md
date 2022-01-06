@@ -14,7 +14,7 @@
 <body>
 <div id="card">
   <div id="containerpic">
-    <img src="/images/image-equilibrium.jpg" alt="Poza Cub" id="cub">
+    <img src="./images/image-equilibrium.jpg" alt="Poza Cub" id="cub">
     <div id="containereye">
       <img src="./images/icon-view.svg" alt="view" id="overlay">
     </div>
